@@ -1,0 +1,67 @@
+/* Mariana Moura */
+
+html{
+    background-color: teal;
+}
+
+body{
+    background-color: azure;
+    width: 70%;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+header{
+    height: 65px;
+    padding: 10px;
+    text-align: center;
+}
+
+.douglascollege{
+    color: teal;
+    text-decoration: none;
+}
+
+.london{
+    font-style: italic;
+
+}
+
+hr#first{
+    border: 5px dashed navy;
+    width: 50%;
+    border-radius: 5px;
+}
+
+ul{
+    color: azure;
+    font-weight: bold;
+}
+
+section#bottom{
+    padding: 20px 40px;
+    background-color: teal;
+    border-radius: 20px;
+}
+
+footer{
+    font-style: italic;
+    font-size: smaller;
+
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+    
+    width: 40%;
+    border-radius: 0 5px;
+}
+
+.whistler{
+    color: teal;
+    font-weight: bold;
+}

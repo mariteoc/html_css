@@ -1,0 +1,38 @@
+table>caption{
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+colgroup{
+    width: 55%;
+}
+
+td,th{
+    width: 15%;
+    border-collapse:unset;
+    border: 1px solid black;
+}
+
+thead{
+    background: olive;
+    color: whitesmoke;
+}
+
+#first_tbody{
+    background: khaki;
+}
+
+iframe{
+    border-radius: 10px;
+    width: 95%;
+    height: 250px;
+}
+
+video{
+    border-radius: 10px;
+    width: 95%;
+    height: 250px;
+}

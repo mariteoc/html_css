@@ -1,0 +1,33 @@
+/* table stylesheet */
+
+table{
+    border-collapse: collapse;
+    border:1px solid black;
+    width: 100%;
+    margin-top: 2%;
+}
+
+td, th{
+    border-collapse: collapse;
+    border:1px solid black;
+    padding: 10px;
+}
+
+#table-maze{
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+#mazeimg{
+    width: 240px;
+}
+
+.maze{
+    color: white;
+    background-color:teal;
+}
+
+#green{
+    border:2px solid darkgreen;
+}

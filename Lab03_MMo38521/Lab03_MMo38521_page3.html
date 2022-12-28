@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Mariana Moura">
+        <title> Grid - Lab 03</title>
+        
+        <!-- stylesheets link -->
+        <link rel="stylesheet" href="css/styles_MMo38521.css">
+        <link rel="stylesheet" href="css/navigation_MMo38521.css">
+        <link rel="stylesheet" href="css/grid_MMo38521.css">
+         
+    </head>
+    <body id="pageadd">
+        <header>
+            <h1>CSIS 1280 Lab 02</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="Lab03_MMo38521_page1.html">Home</a></li>
+                <li><a href="Lab03_MMo38521_page2.html">Table Practice</a></li>
+                <li><a href="Lab03_MMo38521_page3.html">Grid Practice</a></li>
+                <li><a href="https://www.douglascollege.ca/course/csis-1280" target="_blank">CSIS 1280</a></li>
+            </ul>
+
+        </nav>
+
+        <article>
+            <section id="main">
+               <aside>
+                   <div class="div_1">
+                       <h3>The Sidebar</h3>
+
+                       The article element containing the table and the aside are floating left with 3:7 width ratio.
+                       <br>
+                       <br>
+                       There are two divs inside the sidebar. Each of them are floated left but somehow the second div is below
+                       the first div. How did I achieve it eh?
+                       <br>
+                       <br>
+                       Also the border bottom of this div is styled using a pseudo class selector. Cool right!
+                       <hr>
+                   </div>
+
+                   <div>
+                       <h3>The Grid Maze</h3>
+
+                       The maze was created using CSS grid.
+                   </div>
+               </aside>
+
+               <!-- Grid creation -->
+               <section id="sec-grid">
+                   <div id="grid_img">
+                       <img src="images/maze_figure.jpg" alt="maze" id="within-grid">
+                    </div>
+                   <div id="grid_title">It's a maze</div>
+                   <div id="grid_1">You can span accross</div>
+                   <div id="grid_2">You can span down</div>
+                   <div id="grid_over">Over here</div>
+                   <div id="grid_3">It's like a puzzle</div>
+                   <div id="grid_4">That way</div>
+                   <div id="grid_5">This Way</div>
+                   <div id="grid_6">Where am I?</div>
+               </section>
+            </section>
+
+        </article>
+
+        <footer>
+            <small>
+                CSIS 1280 &copy; Mariana Moura Fall 2021
+            </small>
+
+        </footer>
+    </body>
+</html>

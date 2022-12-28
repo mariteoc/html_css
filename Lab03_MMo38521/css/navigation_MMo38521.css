@@ -1,0 +1,44 @@
+/* navigation stylesheet */
+
+nav{
+    margin: 0;
+    padding: 0;
+    background-color:crimson;
+}
+
+nav ul{
+   
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: auto;
+}
+
+nav > ul > li{
+    width: 25%;
+    float: left;
+    line-height: 2em;
+   
+    border-top: 1px solid lightcoral;
+    border-left: 1px solid lightcoral;
+    border-right: 1px solid lightcoral;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+ul>li>a{
+    display: block;
+    text-decoration: none;
+    color:whitesmoke; 
+}
+
+ul>li>a:hover{
+    background-color:white;
+    color: crimson;
+
+    border-top: 1px solid violet;
+    border-left: 1px solid violet;
+    border-right: 1px solid violet;
+}
+

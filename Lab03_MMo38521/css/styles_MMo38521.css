@@ -1,0 +1,99 @@
+/* Mariana Moura */
+
+
+/* reset style sheet */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html structure styles */
+html{
+    background-color:lightcoral;
+    margin: auto;
+}
+
+body{
+    background-image: url("../images/douglas_logo.jpg");
+    background-repeat: repeat-x;
+    background-size: auto;
+    width: 69%;
+    margin: 0 auto;
+    padding: 35px 0 200px 0;
+    background-color: white;
+}
+
+#pageadd{
+    padding: 35px 0 375px 0;
+}
+
+header{
+    background-image: url("../images/banner_070.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 420px;
+    margin: 0;
+    color: black;
+    padding: 6% 1%;
+}
+
+h1{
+    position:absolute;
+    top: 200px;
+    left: 40%;
+}
+
+article{
+    padding: 1%;
+    width: 100%;
+    float: left; 
+}
+
+#explanation, #logos{
+    float: left;
+    padding: 1%;
+}
+
+#explanation{
+    width: 80%;
+    padding-left: 5%;
+}
+
+#logos{
+    width: 20%;
+}
+
+footer{
+    padding: 2% 0 0 0;
+    font-style: italic;
+    clear: both;
+    float: right;    
+}
+
+/* img styles */
+figure>figcaption{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+figure{
+    display: table-cell;
+    width: 50%;  
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* other styles */
+.bold{
+    font-weight: bold;
+}
+
+#within-table{
+    width: 100%;
+}

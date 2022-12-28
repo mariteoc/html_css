@@ -1,0 +1,74 @@
+/* Mariana Moura */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background: steelblue;
+    padding: 2%;
+}
+
+header{
+    min-height: 180px;
+    background-position: top right;
+    padding: 1%;
+}
+
+body{
+    background:aliceblue;
+    padding: 2%;
+}
+
+legend{
+    padding: 1%;
+    background-color: cadetblue;
+    color: snow;
+    border-radius: 5px;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+fieldset > div{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+fieldset > div > *{
+    flex: 1 1 100px;
+    margin-left:2px;
+}
+
+fieldset{
+    margin-bottom: 15px;    
+    margin-right: 10px;
+    flex: 1 1 450px;
+}
+
+form{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+input[type="button"]{
+    margin: 10px 2px;
+    background-color: cadetblue;
+    color: snow;
+}
+
+footer{
+    padding-top: 5%;
+}
+
+h3{
+    font-family: "Lucida Handwriting";
+}
+
+img{
+    max-height: 200px;
+    width:fit-content;
+}

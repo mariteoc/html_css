@@ -1,0 +1,77 @@
+/* Mariana Moura */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background: darkkhaki;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: linen;
+    background-image: url("../images/logo.PNG");
+    background-repeat: repeat-x;
+    width:75%;
+    margin:auto;
+    min-height: 850px;
+    min-width: 700px;
+    padding: 2%;
+}
+
+header{
+    background-image: url("../images/background.PNG");
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 5px;
+}
+
+div#student{
+    position: absolute;
+    top:15%;
+    left: 35%;
+    color: whitesmoke;
+    font-size:larger;
+}
+
+div>ul{
+    list-style-type: none;
+}
+
+nav>ul{
+    list-style-type: none;
+}
+
+nav{
+    float: left;
+    width: 25%;
+    height: 600px;
+    background: khaki;
+}
+
+nav>ul>li{
+    float: left;
+    border-bottom: 1px solid gray;
+    background: khaki;
+    display: block;       
+}
+
+ul>li>a{
+    text-decoration: none;
+}
+
+ul>li>a:hover{
+    background:yellowgreen;
+}
+
+article{
+    float: left;
+    width: 75%;
+    padding: 1%;
+}
+
+footer{
+    clear: both;
+    text-align: right;
+}
