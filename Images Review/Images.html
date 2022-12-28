@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content = "Mariana Moura">
+        <title>Image Review</title>
+
+        <script src="js/part2B_MM.js"></script>
+        <link rel="stylesheet" href="css/part2B_MM.css">
+    </head>
+    <body>
+        <header>
+            <h1> Images Review</h1>
+        </header>
+        <article>
+            <section>
+                <label for="images">Select image:</label>
+                <select id="images">
+                  
+                </select>
+                <br>
+                <img src="images/image_placeholder.jpg" alt="image placeholder" id="select_image">
+            </section>
+            <form name="myForm" action="">
+                <fieldset>
+                    <legend>Submit your review</legend>
+                    <div>
+                       
+                        <label for="places"> Image Tag</label>
+                        <span id="div_places">
+
+                        </span>
+                         
+                    </div>
+                    <div>
+                        <label for="quality">Image Quality</label>
+                        <span id="div_quality">
+
+                        </span>
+                    </div>
+                    <div>
+                        <label for="uname">Username</label>
+                        <input type="text" id="uname" name="uname" size="20">
+                    </div>
+                    <div>
+                        <label for="umail">User Email</label>
+                        <input type="email" id="umail" name="umail" placeholder="html@code.com">
+                    </div>
+                    <input type="button" id="send" name="send" value="Sumit Review">
+                    <input type="reset" id="clear" name="clear">
+                </fieldset>
+            </form>
+        </article>
+        <div id="output">
+
+        </div>
+
+    </body>
+</html>

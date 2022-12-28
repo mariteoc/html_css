@@ -1,0 +1,32 @@
+body{
+    padding: 30px;
+}
+
+section#container{
+    display: grid;
+    grid-template-columns: repeat(7, 70px);
+    grid-template-rows: repeat(7, 70px);
+}
+div{
+    border: 1px solid black;
+}
+
+
+
+
+
+.sandybrown{
+    background-color: sandybrown;
+}
+
+.chocolate{
+    background-color: chocolate;
+}
+
+.saddlebrown{
+    background-color: saddlebrown;
+}
+
+.ivory{
+    background-color: ivory;
+}

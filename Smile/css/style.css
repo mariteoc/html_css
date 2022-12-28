@@ -1,0 +1,30 @@
+
+
+body{
+    padding: 30px;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.white{
+    background-color: white;
+}
+
+section#container{
+    display: grid;
+    grid-template-columns: repeat(12, 30px);
+    grid-template-rows: repeat(12, 30px);
+}
+div{
+    border: 1px solid black;
+}

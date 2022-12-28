@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Mariana Moura">
+        <title> Video </title>
+
+        <link rel="stylesheet" href="css/style_MM.css">
+        <script src="script/script_MM.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Input for video</h1>
+        </header>
+        <article>
+            <form name="myform" action='' method="get">
+                <fieldset id="first">
+                    <legend>Media Information</legend>
+                    <div>
+                        <label for="video">Select Video</label>
+                        <select name="video" onchange="chooseVideo(this.value)">
+                            <option value="none">Select Video</option>
+                            <option value="Salmon.mp4" >Salmon</option>
+                            <option value="snowmobile.mp4">Snow Mobile</option>
+                            <option value="vancouver.mp4">Vancouver</option>
+                        </select>
+                    </div>
+                    <span id="st_div">
+                    <div>
+                        Apply Style <br>
+                        <label for="color">Background color:</label>
+                        <span>
+                            <input type="radio" name="color" id="color" value="tomato" onclick="chooseColor(this.value)"> Tomato
+                            <input type="radio" name="color" id="color1" value="coral" onclick="chooseColor(this.value)"> Coral
+                            <input type="radio" name="color" id="color2" value="orange" onclick="chooseColor(this.value)"> Orange
+                        </span>
+                    </div>
+                    <div>
+                        <label for="font">Font family:</label>
+                        <span>
+                            <input type="radio" name="font" id="font" value="Papyrus" onclick="chooseFont(this.value)"> Papyrus
+                            <input type="radio" name="font" id="font1" value="Impact" onclick="chooseFont(this.value)"> Impact
+                            <input type="radio" name="font" id="font2" value="Lucida Handwriting" onclick="chooseFont(this.value)"> L. Handwriting
+                        </span>
+                    </div>
+                    <div>
+                        <label for="vStyle">Video Style</label>
+                        <span>
+                            <input type="checkbox" name="vStyle" id="vStyle" value="border-radius: 20px" onclick="chooseStyle(this.value)">Border Radius
+                            <input type="checkbox" name="vStyle" id="vStyle1" value="box-shadow: 4px 4px 4px gray" onclick="chooseStyle(this.value)">Box shadow
+                            <input type="checkbox" name="vStyle" id="vStyle2" value="border: 4px solid red" onclick="chooseStyle(this.value)">Red border
+                        </span>
+                    </div>
+                    </span>
+                    <div>
+                        <label for="title">Video title</label>
+                        <input type="text" name="title" id="title">
+                    </div>
+                    <div>
+                        <label for="tag">Video tag</label>
+                        <span>
+                            <input type="checkbox" name="tag" id="tag" value="Nature">Nature
+                            <input type="checkbox" name="tag" id="tag1" value="Canada">Canada
+                            <input type="checkbox" name="tag" id="tag2" value="City">City
+                        </span>
+                    </div>
+                    <div>
+                        <label for="descr">Video description</label>
+                        <textarea name="descr" id="descr" rows="4" cols="50"></textarea>
+                    </div>
+                    <div>
+                        <label for="email">User email</label>
+                        <input type="email" name="email" id="email" placeholder="one@here.com">
+                    </div>
+                    <div>
+                        <input type="button" name="send" id="send" value="Enter video description" onclick="changeText(this.form)">
+                    
+                        <input type="reset" name="clear" id="clear" value="Clear Input">
+                    </div>
+
+                </fieldset>
+                <fieldset id="second">
+                    <legend>Video description</legend>
+                        <h1 id="vd_title">Video Title</h1>
+                        <p id="vd_descr">Video description:</p>
+                        <p id="tags_vd"><em> Video tag</em></p>
+                        <video controls id="chVideo">
+                            <source src="media/" type="video/mp4">
+                        </video>
+                        <p id="usr_mail">User email:</p>
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+        <footer>
+            <small>
+                <em>
+                &copy; Mariana Moura -2022
+                </em>
+            </small>
+        </footer>
+    </body>
+</html>

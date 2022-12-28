@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Mariana Moura">
+        <title>Home</title>
+        <link rel="stylesheet" href="css/stylesA_MMo.css">
+        <script src="script/scriptB_MMo.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <h1>Choose the style</h1>
+            <h3>Images</h3>
+        </header>
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Input</legend>
+                        <div>
+                            <span>
+                                <label for="image">Select Image</label>
+                                <input type="radio" name="image" id="image" value="strawberry.jpg" onclick="chooseImg(this.value)">Strawberry
+                                <input type="radio" name="image" id="image2" value="strawberry_smoothie.jpg" onclick="chooseImg(this.value)">Strawberry Smoothie
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                <label for="style">Select Style</label>
+                                <select name="style" id="style" onchange="selectStyle(this.value)">
+                                    <option value="none">Select Style</option>
+                                    <option value="border-radius: 50px"> Border Radius</option>
+                                    <option value="border: 6px solid red">Red Border</option>
+                                </select>
+                            </span>
+                        </div>
+                        <br>
+                        <div>
+                            <span>
+                                <label for="color">Choose Background</label>
+                                <input type="radio" name="color" id="color" value="coral">Light Coral
+                                <input type="radio" name="color" id="color2" value="olive">Olive
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                            <!-- <label for="msg">Your Message</label> -->
+                            Insert a message to be shown
+                            <br>
+                            <textarea name="msg" id="msg" rows="4" cols="50"></textarea>
+                            </span>
+                        </div>
+                        <input type="button" id="send" name="send" value="Enter your choice" onclick="finishForm(this.form)">
+                        <input type="button" id="clear" name="clear" value="Clear your input">
+                </fieldset>
+                <fieldset id="message">
+                    <legend>Card Message</legend>
+                    <img src="images/noimage.jpg" id="result">
+                    <h3 id="output">The message:</h3>
+                </fieldset>
+            </form>
+        </article>
+        <footer>
+            <small>
+                <em> Copyright &copy; Mariana Moura - 2022</em>
+            </small>
+        </footer>     
+    </body>
+   
+</html>
